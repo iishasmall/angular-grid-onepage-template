@@ -1,0 +1,36 @@
+<div class="container-fluid" id="work">
+  <div class="row">
+    <div class=" starter-template">
+      <div class="" id="work-element">
+        <!-- <div class="animation-element slide-right" id="work-element"> -->
+        <!-- <h1 class="header">Work</h1> -->
+        <ul class="portfolio-padding">
+          <li ng-repeat="image in $ctrl.images" class="col-lg-4 col-sm-4 col-xs-12">
+
+            <img class="thumbnail img-responsive" ng-src="{{image.src}}" ng-click="thumbnnailBtn(image.src,image.title)">
+          </li>
+        </ul>
+
+
+        <div tabindex="-1" class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <h3 class="modal-title">{{$ctrl.modalTitle}}</h3>
+              </div>
+              <div class="modal-body">
+
+                <img class="thumbnail img-responsive" ng-src="{{$ctrl.modalImg}}">
+
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>

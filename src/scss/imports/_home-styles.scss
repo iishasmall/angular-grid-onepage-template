@@ -1,0 +1,34 @@
+
+// using this for styling the home section
+
+.home-background{
+	/*background-image:url('http://lorempixel.com/1500/768/nature/');*/
+}
+
+
+.logo-img {
+	height:650px;
+    display: block;
+
+	img{
+		display:inline-block;
+		margin-left: 35%;
+		width:25%;
+
+		@media(min-width:375px){
+			margin-left: 25%;
+			width:50%;
+		}
+		
+	}
+
+	@media(max-width:375px){
+			height:350px;
+		}
+	
+}
+
+
+
+
+

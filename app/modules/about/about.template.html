@@ -1,0 +1,36 @@
+ <div class="container-fluid" id="about">
+      <div class="row">
+         <div class=" starter-template">
+         <div class="" id="about-element">
+        <h1 class="header">About</h1>
+                
+                 <div class="icon-section col-lg-12 about-team-padding-bottom" >
+                 
+                   <a href="#"><img src="icons/facebook.svg" class="icon-size icon-btn"></a>
+                   <a href="#"><img src="icons/linkedin.svg" class="icon-size icon-btn"></a>
+                   <a href="#"><img src="icons/google-plus.svg" class="icon-size icon-btn"></a>
+                   <a href="#"><img src="icons/skype.svg" class="icon-size icon-btn"></a>
+                   <a href="#"><img src="icons/pinterest.svg" class="icon-size icon-btn"></a>
+                   <a href="#"><img src="icons/twitter.svg" class="icon-size icon-btn"></a>
+                 </div>
+
+
+                 <div class="row about-team-padding-top">
+
+                  <div class="col-md-4" ng-repeat="bio in $ctrl.bios">
+                   <div class="about-btn about-section-btn center-block">
+                     <p class="about-section-content">{{bio.info}}</p>
+                   </div>
+                  <img  ng-src="{{bio.src}}">
+                  <h1 class="about-team-header">{{bio.header}}</h1>
+                  <h2 class="about-team-subhead"> {{bio.subhead}}</h2>
+                 </div>
+                  
+
+                 </div>
+                 
+
+                 
+        </div>
+      </div>
+      </div>

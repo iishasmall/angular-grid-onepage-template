@@ -1,0 +1,30 @@
+[
+  {
+            "src":"images/about/image_01_about.jpg",
+            "info":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod augue eu neque luctus, at imperdiet velit vestibulum. Nullam faucibus turpis non risus vehicula, eget facilisis felis tempor. Nulla hendrerit est in purus molestie, nec cursus tellus finibus.",
+            "header":"Lead Photographer",
+            "subhead":"person title goes here"
+
+  },
+
+   {
+            "src":"images/about/image_02_about.jpg",
+            "info":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod augue eu neque luctus, at imperdiet velit vestibulum. Nullam faucibus turpis non risus vehicula, eget facilisis felis tempor. Nulla hendrerit est in purus molestie, nec cursus tellus finibus.",
+            "header":"Lead Designer",
+            "subhead":"person title goes here"
+
+  },
+
+   {
+            "src":"images/about/image_03_about.jpg",
+            "info":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod augue eu neque luctus, at imperdiet velit vestibulum. Nullam faucibus turpis non risus vehicula, eget facilisis felis tempor. Nulla hendrerit est in purus molestie, nec cursus tellus finibus.",
+            "header":"Lead retoucher",
+            "subhead":"person title goes here"
+
+  }
+
+  
+
+ 
+ 
+]
